@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 1.6rem;
+}
+
+html{
+    font-size: 62.5%;
+
+    // @include responsive(db){
+    //     font-size: 75%; //1rem= 12px 12/16= 75
+    // }
+
+    // @include responsive(tl){
+    //     font-size: 56.25%; //1rem= 9px 9/16= 56.25
+    // }
+
+    // @include responsive(tp){
+    //     font-size: 50%; //1rem= 8px 8/16= 56.25
+    // }
+
+    
+}
+
+body{
+    box-sizing: border-box;
+    font-family: $f;
+
+   
+}
+
+// a::-moz-focus-inner,button::-moz-focus-inner {
+//     border: 0;
+//   }
+
+//   ::selection{
+//       background: $cr-1;
+//       color: $cr-9;
+//   }

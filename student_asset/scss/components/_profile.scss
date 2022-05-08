@@ -1,0 +1,42 @@
+.profile{
+    padding: 30px 20px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+
+    &__picture{
+        width: 80px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    &__name{
+        font-size: 20px;
+        color: $c2;
+    }
+
+    &__info{
+        margin-top: 50px;
+        display: flex;
+
+        &--box{
+            flex: 1;
+            &:not(:last-child){
+                border-right: 1px solid $c2;
+            }
+            
+
+            & .value{
+                color: $c2;
+                font-size: 14px
+            }
+
+            & .label{
+                font-size: 11px;
+                margin-top: 8px;
+                color: $c6;
+            }
+        }
+    }
+}

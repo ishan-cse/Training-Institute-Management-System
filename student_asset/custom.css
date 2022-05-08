@@ -1,0 +1,45 @@
+    .button{
+        padding: 5px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .full-width-btn{
+        width: 100%;
+    }
+    .pink-button{
+        background: #fa80b2;
+        border: 2px solid #fa80b2;
+        color: #fff;
+    }
+    .border-button{
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+    
+    .dis-btn{
+        background: #f2f7fd;
+        border: 2px solid #f8c0d7;
+        color: #fa80b2;
+        cursor: auto;
+    }
+    .pink-button:hover{
+        background: transparent;
+        color: #fa80b2;
+        transition: all 0.3s;
+    }
+    .course__list{
+        position:relative;
+    }
+    .course__enroll {
+        position: absolute;
+        right: 20px;
+        margin-bottom: 3px;
+    }
+    .d_flex{
+        display: flex;
+    }

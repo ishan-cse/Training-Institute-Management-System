@@ -1,0 +1,105 @@
+button.course-accordion {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-family: $f;;
+    outline: none;
+    font-size: 18px;
+	  font-weight: 600;
+    transition: 0.4s;
+    line-height: 1.5em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*When the button is active or mouse hovers*/
+button.course-accordion.active,
+button.course-accordion:hover {
+    background-color: rgba(166,166,166,0.6);
+}
+
+/*button not active*/
+button.course-accordion:after {
+    content: '\002B';
+    color: $c7;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+/* minus button */
+button.course-accordion.active:after {
+    content: "\2212";
+	
+
+}
+
+div.course-panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+	  width: 100%;
+	  font-family: "Raleway";
+    font-size: 15px;
+    line-height: 1.6em;
+    letter-spacing: .4px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0,0,0,.88);
+}
+
+
+button.course__list{
+    padding: 15px;
+    background:#fff;
+    position: relative;
+}
+
+.course__items{
+    padding-left: 0;
+}
+
+.course__item{
+    list-style: none;
+    padding: 15px 0;
+
+    &:not(:last-child){
+        border-bottom: 1px solid $c7;
+    }
+    
+}
+
+.notice{
+    position: relative;
+    padding-bottom: 30px;
+    font-family: $f;
+    font-size: 14px;
+}
+
+.copy{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    padding: 5px;
+
+    & svg{
+        width: 20px;
+        height: 20px;
+        fill: #888;
+    }
+}
+
+.notice-content{
+    width: 100%;
+}

@@ -1,0 +1,1 @@
+[10-Aug-2021 05:58:34 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.2.34. in /home/touhmriz/public_html/TPAAC/vendor/composer/platform_check.php on line 24
